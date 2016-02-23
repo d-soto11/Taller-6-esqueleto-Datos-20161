@@ -44,17 +44,20 @@ public class TablaHash<K extends Comparable<K> ,V> {
 	}
 
 	public void put(K llave, V valor){
-		//TODO:
+		//TODO: Gaurde el objeto dado por parametro
 	}
 
+
+//TODO
 	public V get(K llave){
-		//TODO:
+		//TODO: Busque y retorne el objeto cuya llave es la dada por parametro.
+
 		return null;
 	}
 
 	//Hash
 	private int hash(K llave){
-		//TODO: 
+		//TODO:
 		return 0;
 	}
 

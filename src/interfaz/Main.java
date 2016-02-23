@@ -30,14 +30,14 @@ public class Main {
 				++i;
 				if (++i%500000 == 0)
 					System.out.println(i+" entradas...");
-				
+
 				entrada = br.readLine();
 			}
 			System.out.println(i+" entradas cargadas en total");
 			br.close();
 		} catch (Exception e) {
 			e.printStackTrace();
-		} 
+		}
 
 		System.out.println("Ciudad Central Directorio v1.0");
 
@@ -46,19 +46,26 @@ public class Main {
 		while (seguir)
 			try {
 				System.out.println("Bienvenido, seleccione alguna opcion del menu a continuacion:");
-				System.out.println("1: Agregar registro telefonico");
-				System.out.println("2: Buscar registro telefonico");
+				System.out.println("1: Agregar un contacto telefónico");
+				System.out.println("2: Buscar un contacto telefónico");
+				System.out.println("3: Buscar un contacto telefónico por su nombre y/o apellido ");
 				System.out.println("Exit: Salir de la aplicacion");
-				
+
 				BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 				String in = br.readLine();
 				switch (in) {
 				case "1":
-					//TODO: Implemente el requerimiento 1
+					//TODO: Implemente el requerimiento 1.
+					//Agregar un contacto telefónico
 					break;
 				case "2":
-					//TODO: Implemente el requerimiento 1
+					//TODO: Implemente el requerimiento 2
+					//Buscar un contacto telefónico por su número de teléfono
 					break;
+					case "3":
+						//TODO: Implemente el requerimiento 3
+						//Buscar en la agenda por nombre y/o apellido
+						break;
 				case "Exit":
 					System.out.println("Cerrando directorio...");
 					seguir = false;
