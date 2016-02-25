@@ -44,21 +44,30 @@ public class TablaHash<K extends Comparable<K> ,V> {
 	}
 
 	public void put(K llave, V valor){
-		//TODO: Gaurde el objeto dado por parametro
+		//TODO: Gaurde el objeto valor dado por parametro el cual tiene la llave llave,
+		//tenga en cuenta que puede o no puede haber colisiones
 	}
 
 
 //TODO
+
 	public V get(K llave){
-		//TODO: Busque y retorne el objeto cuya llave es la dada por parametro.
+		//TODO: Busque y retorne el objeto cuya llave es la dada por parametro. Tenga en cuenta
+		// colisiones
 
 		return null;
 	}
 
 	//Hash
-	private int hash(K llave){
-		//TODO:
+	private int hash(K llave)
+	{
+		//TODO: Escriba una función de Hash, recuerde tener en cuenta la complejidad de esta así como las colisiones.
 		return 0;
+	}
+
+	private void reHash()
+	{
+		//TODO: Escriba un metodo que permita que la tabla sea dinamica
 	}
 
 

@@ -49,6 +49,7 @@ public class Main {
 				System.out.println("1: Agregar un contacto telefónico");
 				System.out.println("2: Buscar un contacto telefónico");
 				System.out.println("3: Buscar un contacto telefónico por su nombre y/o apellido ");
+				//TODO: si deasea realizar el bono implemente la indetificación del caso así cómo su descripción
 				System.out.println("Exit: Salir de la aplicacion");
 
 				BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -66,6 +67,7 @@ public class Main {
 						//TODO: Implemente el requerimiento 3
 						//Buscar en la agenda por nombre y/o apellido
 						break;
+					//TODO: Si desea realizar el bono implemente el case
 				case "Exit":
 					System.out.println("Cerrando directorio...");
 					seguir = false;
